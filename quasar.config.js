@@ -25,6 +25,7 @@ module.exports = configure(function (/* ctx */) {
       'axios',
     ],
 
+
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
     css: [
       'app.scss'
@@ -89,7 +90,6 @@ module.exports = configure(function (/* ctx */) {
         }, { server: false }]
       ]
     },
-
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#devServer
     devServer: {
       // https: true
